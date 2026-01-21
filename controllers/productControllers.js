@@ -1,4 +1,4 @@
-const productModel = requir("../models/productModel");
+const productModel = require("../models/productModel");
 
 // Controller function to create a new product
 exports.createProduct = async (req, res) => {
